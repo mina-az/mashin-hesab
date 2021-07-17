@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(245, 214, 208);
+    
+}
+#cal{
+    margin: 0 auto;
+    width: 960px ;
+    
+    
+
+}
+#calculator{
+    background-color: #fa9090;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 7%;
+    padding: 10px ;
+    overflow: hidden;
+    border-radius: 5px ;
+
+
+}
+#num1{
+    border: 1px solid black;
+    font-size: 50px;
+    background-color: rgb(253, 219, 219);
+    padding: 10px 5px ;
+    border-radius: 5px ;
+    margin-bottom: 20px ;
+    
+}
+.btn{
+color: white;
+text-align: center;
+background-color: #994242 ;
+border: 1px solid #c7c7c7 ;    
+border-radius: 15px ;
+ float: left;
+ width: 139px ;                /* 140 درستش کن */
+ height: 70px ;            
+padding-top: 30px;
+box-shadow: 1px 1px 2px black;
+margin-bottom: 4px ;
+font-size: 30px;
+user-select: none;       /*نمیتونه کلیک کنه رو متن یا عدد */
+
+}
+.btn:hover{
+    background-color: rgb(255, 182, 182);
+
+
+}
+.btn:active{
+    box-shadow: 1px 1px 5px black inset;
+}
